@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "lista de compras",
+    "slug": "lista-de-compras",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon2.png"
+      },
+      "package": "com.vitordesousa.listadecompras"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
